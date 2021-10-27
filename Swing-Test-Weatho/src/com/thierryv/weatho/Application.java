@@ -12,7 +12,7 @@ public class Application {
                 MainFrame mainFrame = new MainFrame("Weatho");
                 mainFrame.setResizable(false);
                 mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                mainFrame.pack(); // redimentionnement selon les composants
+                mainFrame.pack(); // redimentionnement selon les composants !!!
                 mainFrame.setLocationRelativeTo(null); // pour centrer la fenêtre
                 mainFrame.setVisible(true);
             }
