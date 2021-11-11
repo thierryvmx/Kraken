@@ -9,7 +9,7 @@ public class Application {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                MainFrame mainFrame = new MainFrame("Weatho");
+                MainFrame mainFrame = new MainFrame("Weatholoo");
                 mainFrame.setResizable(false);
                 mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 mainFrame.pack(); // redimentionnement selon les composants
